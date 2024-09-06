@@ -10,7 +10,7 @@ st.set_page_config(page_title="Animal Location Analysis", layout="wide")
 st.title("🐾 Animal Location Analysis with Acceptance-Rejection Sampling")
 
 # Load data directly from the text file
-data_file = "animal_true_location.txt"
+data_file = "animal_location_data.txt"
 
 # Load data
 df = pd.read_csv(data_file, sep="\t", header=0)
